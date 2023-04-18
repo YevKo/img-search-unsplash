@@ -6,7 +6,7 @@ function ResultList( {images} ) {
         return <ResultShow image={image} key={index}/>;
     })
 
-    return <div>{renderedImages}</div>
+    return <div  className="my-5 grid grid-cols-1 md:grid-cols-4 gap-4 grid-flow-dense">{renderedImages}</div>
 }
 
 export default ResultList;
