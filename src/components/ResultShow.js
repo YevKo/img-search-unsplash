@@ -40,7 +40,7 @@ function ResultShow({ image }) {
                     <p className="text-medium mb-5 text-gray-700"> {image.description}</p>
                 </div>
                 <div className="flex absolute top-0 right-0 items-center p-3 m-3 rounded-full bg-blue">
-                    <svg width="20" height="20" fill="white" class="bi bi-arrow-down-short" viewBox="3 3 10 10"><path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/></svg>
+                    <svg width="20" height="20" fill="white" className="bi bi-arrow-down-short" viewBox="3 3 10 10"><path fillRule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/></svg>
                 </div>
             </a>
         </div>

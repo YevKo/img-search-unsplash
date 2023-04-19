@@ -1,6 +1,10 @@
-import ResultShow from './ResultShow'
+import { useContext } from 'react';
 
-function ResultList( {images} ) {
+import ResultShow from './ResultShow'
+import AnimalsContext from '../context/animals';
+
+function ResultList() {
+    const { images } = useContext(AnimalsContext);
 
     const renderedImages = images.map( (image, index) => {
         return <ResultShow image={image} key={index}/>;
