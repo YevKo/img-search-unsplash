@@ -13,7 +13,6 @@ function Provider({ children }) {
 
     const SearchImages = async (term, page) => {
         setIsLoading(true);
-        console.log('page in fetch', page);
         const response = await axios.get(`https://api.unsplash.com/search/photos/?&page=${page}`, {
             headers: {
                 Authorization: 'Client-ID IX0ketCQDU-qZ_OOGYcOgXna95UYk9lz3pLZsZp6igA'
